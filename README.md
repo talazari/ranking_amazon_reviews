@@ -3,7 +3,7 @@ Ranking Reviews Helpfulness
 
 **The project aims to develop a machine learning approach to automatically rank reviews by their helpfulness**
 <p align="center">
-  <img src="docs/helpfulness_logo.jpg" width=200 height=200>
+  <img src="docs/helpfulness_logo.jpg" width=100 height=100>
 </p>
 
 Dataset
