@@ -1,0 +1,47 @@
+{ "feature_engineering":
+        {
+          "random_forest":
+          {
+            "n_estimators": 300,
+            "max_depth": 200,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt",
+            "bootstrap": false,
+            "verbose": 1
+          },
+          "xgboost":
+          {
+            "learning_rate": 0.5,
+            "max_depth": 10,
+            "n_estimators": 200
+          },
+          "svm":
+          {
+            "probability": true,
+            "gamma": 0.33,
+            "C": 10,
+            "verbose": true
+          }
+
+        },
+  "textual_features":
+          {
+          "random_forest":
+          {
+
+          },
+          "xgboost":
+          {
+            "learning_rate": 1,
+            "max_depth": 40
+          },
+          "svm":
+          {
+            "probability": true,
+            "gamma": 0.33,
+            "C": 10,
+            "verbose": true
+          }
+
+        }
+}
