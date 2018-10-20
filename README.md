@@ -1,10 +1,10 @@
 Ranking Reviews Helpfulness
 ==============================
 
-##### The project aims to develop a machine learning approach to automatically rank reviews by their helpfulness
+### The project aims to develop a machine learning approach to automatically rank reviews by their helpfulness
 
 
-Dataset*
+Dataset
 --------
 * This dataset consists of fine foods reviews from Amazon.
 * The data span a period of more than 10 years, including all
@@ -12,7 +12,8 @@ Dataset*
 * Reviews include product and user information, ratings, and a
 plaintext review.
 
-*J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013
+
+<p><small> J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013 </small></p>
 
 The Task
 ------------
