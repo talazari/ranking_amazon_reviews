@@ -1,7 +1,39 @@
 Ranking Reviews Helpfulness
 ==============================
 
-This project aims to develop a machine learning approach to automatically rank reviews by their helpfulness
+##### The project aims to develop a machine learning approach to automatically rank reviews by their helpfulness
+
+
+Dataset*
+--------
+* This dataset consists of fine foods reviews from Amazon.
+* The data span a period of more than 10 years, including all
+~500,000 reviews up to October 2012.
+* Reviews include product and user information, ratings, and a
+plaintext review.
+
+*J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013
+
+The Task
+------------
+Given a set of reviews we want to rank them from the most helpful to the least
+
+There are 11 levels of helpfulness:
+<img src="docs/ranking_scale.jpg" alt="rank_scale" align="center" width="400px"/>
+
+
+Flow Chart
+----------
+
+<img src="docs/flow_chart.jpg" alt="flow_chart" align="center" width="700px"/>
+
+
+
+Documentation
+------------
+
+Please find  <a href='https://drive.google.com/file/d/1ugqPiowyRqqIluPHLx3DdNd0EqPdrFHF/view?usp=sharing'>Ranking reviews by their helpfulness</a><br>
+
 
 Project Organization
 ------------
@@ -44,29 +76,23 @@ Project Organization
     │   │   └── evaluation.py
     │   │
     │
-    
+<p><small>Licence: <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. </small></p>
 
---------
-
-Flow Chart
-------------
-<img src="docs/flow_chart.jpg" alt="flow_chart" align="center" width="700px"/>
-
-
-
-Documentation
-------------
-See `./Doc/Kaggle_CrowdFlower_ChenglongChen.pdf` for documentation.
-
-* <a href='https://drive.google.com/file/d/1ugqPiowyRqqIluPHLx3DdNd0EqPdrFHF/view?usp=sharing'>Ranking reviews by their helpfulness</a><br>
 
 Instructions
 ------------
-The project is depended on the following
-<a href='https://bitbucket.org/talazaria/ranking_reviews_helpfulness/src/master/requirements.txt'>libraries</a><br>
-Installation can be done by:
+* Project 
+<a href='https://bitbucket.org/talazaria/ranking_reviews_helpfulness/src/master/requirements.txt'>dependencies</a><br>
+* Installation can be done by:
 ```commandline
-pip install requierments.txt
+pip install -r requierments.txt
 ```
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
+
+Usage
+------------
+* To train and predict reviews helpfulness, run:
+```commandline
+cd src
+python rank_reviews_helpfulness_flow.py --config_file src/models/config_file.json
+```
