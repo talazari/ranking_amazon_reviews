@@ -1,7 +1,7 @@
 Ranking Reviews Helpfulness
 ==============================
 
-### The project aims to develop a machine learning approach to automatically rank reviews by their helpfulness
+**The project aims to develop a machine learning approach to automatically rank reviews by their helpfulness**
 
 
 Dataset
@@ -12,15 +12,14 @@ Dataset
 * Reviews include product and user information, ratings, and a
 plaintext review.
 
-
-<p><small> J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013 </small></p>
+<sub><sup>J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013</sup></sub>
 
 The Task
 ------------
 Given a set of reviews we want to rank them from the most helpful to the least
 
 There are 11 levels of helpfulness:
-<img src="docs/ranking_scale.jpg" alt="rank_scale" align="center" width="400px"/>
+<img src="docs/ranking_scale.jpg" alt="rank_scale" align="center" width="300px"/>
 
 
 Flow Chart
@@ -77,8 +76,7 @@ Project Organization
     │   │   └── evaluation.py
     │   │
     │
-<p><small>Licence: <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. </small></p>
-
+<sub><sup> Licence: <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>  </sup></sub>
 
 Instructions
 ------------
