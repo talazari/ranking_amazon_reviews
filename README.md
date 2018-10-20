@@ -26,7 +26,7 @@ There are 11 levels of helpfulness:
 
 Flow Chart
 ----------
-<p align="center">
+<p align="left">
   <img src="docs/flow_chart.jpg" width=700 >
 </p>
 
