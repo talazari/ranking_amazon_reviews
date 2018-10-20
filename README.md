@@ -33,7 +33,7 @@ Flow Chart
 Documentation
 ------------
 
-Please find  <a href='https://drive.google.com/file/d/1ugqPiowyRqqIluPHLx3DdNd0EqPdrFHF/view?usp=sharing'>Ranking reviews by their helpfulness</a><br>
+Please see  <a href='https://drive.google.com/file/d/1ugqPiowyRqqIluPHLx3DdNd0EqPdrFHF/view?usp=sharing'>Ranking reviews by their helpfulness</a><br>
 
 
 Project Organization
@@ -79,7 +79,7 @@ Project Organization
     │
 <sub><sup> Licence: <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>  </sup></sub>
 
-Instructions
+Installation
 ------------
 * Project 
 <a href='https://bitbucket.org/talazaria/ranking_reviews_helpfulness/src/master/requirements.txt'>dependencies</a><br>
@@ -87,7 +87,6 @@ Instructions
 ```commandline
 pip install -r requierments.txt
 ```
-
 
 Usage
 ------------
